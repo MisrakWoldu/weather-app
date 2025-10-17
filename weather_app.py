@@ -14,7 +14,7 @@ def get_weather(city, api_key):
     print(f"Wind Speed: {data['wind']['speed']} m/s")
 
 def main():
-    api_key = "3e62c08752ce4ef238a1a803154cb7fd"
+    api_key = "OPENWEATHER_API_KEY"
     city = input("Enter city name: ")
     get_weather(city, api_key)
 
